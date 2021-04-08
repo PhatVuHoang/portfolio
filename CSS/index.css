@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -234,7 +235,7 @@ header.sticky ul li a{
 /* SKILL */
 .skill{
     text-align: center;
-    background: #ccc;
+    background: #F5F5F5;
 }
 .skill h3 {
     font-size: 40px;
@@ -305,22 +306,22 @@ header.sticky ul li a{
     box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
 }
 
-.skill .skill__content ul li:nth-child(1) a:hover .fab{
+.skill .skill__content ul li:nth-child(1):hover a .fab, .skill .skill__content ul li:nth-child(1):hover #html5{
     color: #D2691E;
 }
-.skill .skill__content ul li:nth-child(2) a:hover .fab{
+.skill .skill__content ul li:nth-child(2):hover a .fab, .skill .skill__content ul li:nth-child(2):hover #css3{
     color: #1E90FF;
 }
-.skill .skill__content ul li:nth-child(3) a:hover .fab{
+.skill .skill__content ul li:nth-child(3):hover a .fab, .skill .skill__content ul li:nth-child(3):hover #js{
     color: #FFD700;
 }
-.skill .skill__content ul li:nth-child(4) a:hover .fab{
+.skill .skill__content ul li:nth-child(4):hover a .fab, .skill .skill__content ul li:nth-child(4):hover #sass{
     color: #FF69B4;
 }
-.skill .skill__content ul li:nth-child(5) a:hover .fab{
+.skill .skill__content ul li:nth-child(5):hover a .fab, .skill .skill__content ul li:nth-child(5):hover #git{
     color: #DC143C;
 }
-.skill .skill__content ul li:nth-child(7) a:hover .fab{
+.skill .skill__content ul li:nth-child(7):hover a .fab, .skill .skill__content ul li:nth-child(7):hover #b4{
     color: #8A2BE2;
 }
 
