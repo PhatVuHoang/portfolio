@@ -336,18 +336,25 @@ footer .heading h3 {
     display: flex;
     margin: 20px 0;
     padding: 20px;
-    border: 2px solid black;
-    border-radius: 5px;
+    border: 2px solid #2196f3;
+    border-radius: 10px;
     width: 80%;
+    background: #2196f3;
 }
+
+.box .text {
+    color: #fff;
+}
+
 .box .icon {
     padding-top: 5px;
     padding-right: 20px;
     font-size: 3.5vw;
+    color: #fff;
 }
 
 .box .text h3 {
-    color: #2196f3;
+    color: #fff;
 }
 
 footer .copyright p{
