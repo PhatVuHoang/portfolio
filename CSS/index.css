@@ -507,7 +507,7 @@ footer .copyright p{
 }
 
 
-@media (max-width: 599.99px) {
+@media (max-width: 499.99px) {
     .banner h2 {
         font-size: 0.7em;
     }
