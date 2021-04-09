@@ -41,10 +41,10 @@
       <a href="#" class="logo">Portfolio</a>
       <div class="toggle" onclick="toggleMenu()"></div>
       <ul class="menu">
-        <li><a href="#aboutme">About me</a></li>
-        <li><a href="#project">Project</a></li>
-        <li><a href="#skill">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#aboutme" onclick="chooseMenu()">About me</a></li>
+        <li><a href="#project" onclick="chooseMenu()">Project</a></li>
+        <li><a href="#skill" onclick="chooseMenu()">Skills</a></li>
+        <li><a href="#contact" onclick="chooseMenu()">Contact</a></li>
       </ul>
     </header>
     <section class="banner">
@@ -190,7 +190,7 @@
         <h3>Contact me</h3>
       </div>
       <div class="row w-100">
-        <div class="container mt-5 col-md-6 col-md-offset-1">
+        <div class="container col-md-6 col-md-offset-1">
           <div class="box">
             <div class="icon">
               <i class="fa fa-map-marker-alt"></i>
@@ -257,6 +257,13 @@
         var menu = document.querySelector('.menu');
         menuToggle.classList.toggle('active')
         menu.classList.toggle('active')
+      }
+
+      function chooseMenu() {
+        var menuToggle = document.querySelector('.toggle');
+        var menu = document.querySelector('.menu');
+        menuToggle.classList.remove('active');
+        menu.classList.remove('active');
       }
     </script>
   </body>
